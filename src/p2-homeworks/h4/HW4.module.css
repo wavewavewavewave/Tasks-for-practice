@@ -1,5 +1,7 @@
 .blue {
-    border-bottom: 5px solid blue;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    border-radius: 5px;
 }
 
 .column {
@@ -9,5 +11,5 @@
 }
 
 .testSpanError {
-    color: blue;
+    color: red;
 }

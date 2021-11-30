@@ -1,7 +1,25 @@
+.Greeting {
+    padding: 5px;
+    display: flex;
+}
+
 .someClass {
 
 }
 
 .error {
     border: 1px solid red;
+}
+
+.errorInput {
+    margin: 5px;
+    color: black;
+    border: 2px solid red;
+    outline: none;
+    background: yellow;
+}
+.input {
+    color: #99ff99;
+    margin: 5px;
+    background: yellow;
 }

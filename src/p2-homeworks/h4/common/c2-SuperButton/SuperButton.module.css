@@ -1,7 +1,21 @@
 .default {
-
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: darkslateblue;
+    color: #ffffff;
+    padding: 8px 16px;
+    font-size: 10px;
+    cursor: pointer;
 }
 
 .red {
-    background: red;
+    appearance: none;
+    border: 0;
+    border-radius: 5px;
+    background: #4676D7;
+    color: #ffffff;
+    padding: 8px 16px;
+    font-size: 10px;
+    cursor: pointer;
 }

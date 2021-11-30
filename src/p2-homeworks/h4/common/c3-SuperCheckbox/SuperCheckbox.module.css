@@ -1,5 +1,8 @@
 .checkbox {
-
+    line-height: 22px;
+    cursor: pointer;
+    user-select: none;
+    position: relative;
 }
 
 .spanClassName {
