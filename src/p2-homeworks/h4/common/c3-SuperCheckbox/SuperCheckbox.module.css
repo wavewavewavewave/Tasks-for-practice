@@ -1,10 +1,17 @@
 .checkbox {
-    line-height: 22px;
-    cursor: pointer;
-    user-select: none;
-    position: relative;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    background: white;
 }
 
 .spanClassName {
+}
 
+.checkbox:checked {
+    appearance: none;
+}
+
+.checkbox:focus {
+    outline: yellow solid 5px;
 }
