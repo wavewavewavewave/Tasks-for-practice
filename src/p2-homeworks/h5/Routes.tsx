@@ -1,9 +1,10 @@
 import React from 'react'
-import {Redirect, Route, Switch} from "react-router-dom";
 import PreJunior from "./pages/PreJunior";
 import Error404 from "./pages/Error404";
 import Junior from "./pages/Junior";
 import HardJunior from "./pages/Junior+";
+import {Redirect, Route, Switch} from 'react-router-dom';
+
 
 export const PATH = {
     PRE_JUNIOR: '/pre-junior',
@@ -12,7 +13,7 @@ export const PATH = {
     // add paths
 }
 
-function Routes() {
+function Routes2() {
     return (
         <div>
             {/*Switch выбирает первый подходящий роут*/}
@@ -35,4 +36,4 @@ function Routes() {
     )
 }
 
-export default Routes
+export default Routes2
