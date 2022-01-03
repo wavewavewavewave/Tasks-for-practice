@@ -7,7 +7,7 @@ import {PATH} from "./Routes";
 function Header() {
     return (
         <div className={s.header}>
-            <NavLink to={PATH.PRE_JUNIOR} className={s.link} activeClassName={s.active}>Pre-junior</NavLink>
+            <NavLink to={PATH.PRE_JUNIOR} className={s.link} activeClassName={s.active}>PreJunior</NavLink>
             <NavLink to={PATH.JUNIOR} className={s.link} activeClassName={s.active}>Junior</NavLink>
             <NavLink to={PATH.HARD_JUNIOR} className={s.link} activeClassName={s.active}>Junior+</NavLink>
             <div className={s.block}/>
