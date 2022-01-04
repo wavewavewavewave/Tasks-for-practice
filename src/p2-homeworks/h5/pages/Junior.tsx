@@ -9,9 +9,8 @@ function Junior() {
     return (
         <div>
             junior
-            {/*<HW6/>*/}
-            {/*<HW7/>
-            <HW8/>
+            <HW7/>
+            {/*<HW8/>
             <HW9/>
             <HW10/>
             <HW11/>*/}
