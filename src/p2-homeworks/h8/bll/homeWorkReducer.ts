@@ -22,12 +22,16 @@ let initialState: Array<UserType> = [
 export const homeWorkReducer = (state: Array<UserType> = initialState, action: ActionsType): Array<UserType> => {
     switch (action.type) {
         case 'sort': {
-            state.sort((a, b) => a.name > b.name ? 1 : 1)
-            return state
+           //const newState =  [...state].sort((a, b) => a.name > b.name ? 1 : -1)
+            const newState = [...state].sort((a, b) => {
+                if (a.name > b.name) return 1;
+                else if (a.name < b.name) return -1;
+                else return 0
+            })
+            return action.payload === 'up' ? newState : newState.reverse()
         }
         case 'check': {
-            // need to fix
-            return state
+            return state.filter(f => f.age >= action.payload)
         }
         default:
             return state

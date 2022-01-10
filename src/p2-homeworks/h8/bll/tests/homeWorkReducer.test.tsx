@@ -18,12 +18,10 @@ beforeEach(() => {
 test('sort name up', () => {
     const newState = homeWorkReducer(initialState, {type: 'sort', payload: 'up'})
 
-    console.log(newState)
-     //expect().toBe()
+     expect(newState[1]._id).toBe(3)
 })
 test('sort name down', () => {
     const newState = homeWorkReducer(initialState, {type: 'sort', payload: 'down'})
-
 
 })
 test('check age 18', () => {

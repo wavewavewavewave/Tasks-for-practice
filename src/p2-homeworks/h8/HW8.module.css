@@ -1,0 +1,13 @@
+.item{
+    display: flex;
+    justify-content: space-between;
+    width: 159px;
+    margin-left: 10px;
+}
+.button {
+    display: flex;
+    flex-direction: row;
+}
+.qwery {
+    padding: 10px;
+}
