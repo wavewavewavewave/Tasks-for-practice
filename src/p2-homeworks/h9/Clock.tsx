@@ -14,7 +14,7 @@ function Clock() {
         stop()
         const id: number = window.setInterval(() => {
             /*let now = date.toLocaleTimeString()*/
-            setDate(date)
+            setDate(new Date())
         }, 1000)
         setTimerId(id)
     }
@@ -28,17 +28,17 @@ function Clock() {
         setShow(false)
     }
 
-    const stringTime = date.toLocaleTimeString() // fix with date
-    const stringDate = date.toLocaleDateString()// fix with date
+    const stringTime = date?.toLocaleTimeString() // fix with date
+    const stringDate = date?.toLocaleDateString()// fix with date
 
     return (
-        <div className={s.title}>
+        <div>
             <div onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave}>
                 {stringTime}
             </div>
 
             {show && (
-                <div>
+                <div >
                     {stringDate}
                 </div>
             )}
