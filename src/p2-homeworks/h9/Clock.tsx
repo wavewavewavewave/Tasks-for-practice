@@ -20,6 +20,7 @@ function Clock() {
 
     const onMouseEnter = () => {
         // show
+        setShow(true)
     }
     const onMouseLeave = () => {
         // close
