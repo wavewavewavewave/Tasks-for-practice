@@ -3,6 +3,7 @@ import SuperButton from '../h4/common/c2-SuperButton/SuperButton'
 import {useDispatch, useSelector} from "react-redux";
 import {loadingAC} from "./bll/loadingReducer";
 import {AppStoreType} from "./bll/store";
+import s from "./HW10.module.css"
 
 function HW10() {
     // useSelector, useDispatch
