@@ -3,6 +3,9 @@ import SuperInputText from './common/c1-SuperInputText/SuperInputText'
 import s from './HW4.module.css'
 import SuperButton from './common/c2-SuperButton/SuperButton'
 import SuperCheckbox from './common/c3-SuperCheckbox/SuperCheckbox'
+import AlternativeSuperButton from "./common/c2-SuperButton/AlternativeSuperButton";
+import AlternativeSuperInputText from "./common/c1-SuperInputText/AlternativeSuperInputText";
+import AlternativeSuperCheckbox from "./common/c3-SuperCheckbox/AlternativeSuperCheckbox";
 
 function HW4() {
     const [text, setText] = useState<string>('')
@@ -69,9 +72,9 @@ function HW4() {
 
             <hr/>
             {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeSuperInputText/>*/}
-            {/*<AlternativeSuperButton/>*/}
-            {/*<AlternativeSuperCheckbox/>*/}
+            <AlternativeSuperInputText/>
+            <AlternativeSuperButton/>
+            <AlternativeSuperCheckbox/>
             <hr/>
         </div>
     )
