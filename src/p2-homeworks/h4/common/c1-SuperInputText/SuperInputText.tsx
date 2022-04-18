@@ -42,10 +42,11 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
     const finalInputClassName = `${s.errorInput} ${error ? s.errorInput : s.superInput} ${className}` // need to fix with (?:) and s.superInput
 
     return (
-        <div className={s.group}>
+        <div>
             <div className={s.superInput}>
             <input
                 type={'text'}
+                placeholder={'Write here...'}
                 onChange={onChangeCallback}
                 onKeyPress={onKeyPressCallback}
                 className={finalInputClassName}

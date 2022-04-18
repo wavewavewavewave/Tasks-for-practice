@@ -72,8 +72,8 @@ function HW4() {
 
             <hr/>
             {/*для личного творчества, могу проверить*/}
-            <AlternativeSuperInputText/>
-            <AlternativeSuperButton/>
+            {/*<AlternativeSuperInputText/>*/}
+            {/*<AlternativeSuperButton/>*/}
             <AlternativeSuperCheckbox/>
             <hr/>
         </div>

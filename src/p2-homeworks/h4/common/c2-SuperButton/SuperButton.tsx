@@ -3,17 +3,17 @@ import s from './SuperButton.module.css'
 import styled from 'styled-components'
 
 
-const Button = styled.button`
-  background-color: #3949ab;
-  border-radius: 5px;
-  color: white;
-  margin: 0 1px;
-  padding: 5px 15px;
-  outline: 0;
-  box-shadow: 0px 2px 2px lightgray;
-  cursor: pointer;
-  text-transform: uppercase;
-`
+// const Button = styled.button`
+//   background-color: #3949ab;
+//   border-radius: 5px;
+//   color: white;
+//   margin: 0 1px;
+//   padding: 5px 15px;
+//   outline: 0;
+//   box-shadow: 0px 2px 2px lightgray;
+//   cursor: pointer;
+//   text-transform: uppercase;
+// `
 
 // тип пропсов обычной кнопки, children в котором храниться название кнопки там уже описан
 type DefaultButtonPropsType = DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement>

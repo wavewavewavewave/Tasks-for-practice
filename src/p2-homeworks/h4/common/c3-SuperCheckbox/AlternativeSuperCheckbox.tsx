@@ -1,8 +1,12 @@
 import React from 'react'
+import Checkbox from "@mui/material/Checkbox";
 
 function AlternativeSuperCheckbox() {
     return (
-        <input/>
+        <div>
+            <input/>
+            <Checkbox color="success"/>
+        </div>
     )
 }
 
