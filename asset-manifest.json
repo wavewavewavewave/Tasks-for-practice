@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Tasks-for-practice/static/css/main.a17eed79.chunk.css",
-    "main.js": "/Tasks-for-practice/static/js/main.d7e48eca.chunk.js",
-    "main.js.map": "/Tasks-for-practice/static/js/main.d7e48eca.chunk.js.map",
+    "main.css": "/Tasks-for-practice/static/css/main.9d4c0d31.chunk.css",
+    "main.js": "/Tasks-for-practice/static/js/main.87e26970.chunk.js",
+    "main.js.map": "/Tasks-for-practice/static/js/main.87e26970.chunk.js.map",
     "runtime-main.js": "/Tasks-for-practice/static/js/runtime-main.d037f899.js",
     "runtime-main.js.map": "/Tasks-for-practice/static/js/runtime-main.d037f899.js.map",
-    "static/js/2.ce89a2bb.chunk.js": "/Tasks-for-practice/static/js/2.ce89a2bb.chunk.js",
-    "static/js/2.ce89a2bb.chunk.js.map": "/Tasks-for-practice/static/js/2.ce89a2bb.chunk.js.map",
+    "static/js/2.fecd5415.chunk.js": "/Tasks-for-practice/static/js/2.fecd5415.chunk.js",
+    "static/js/2.fecd5415.chunk.js.map": "/Tasks-for-practice/static/js/2.fecd5415.chunk.js.map",
     "index.html": "/Tasks-for-practice/index.html",
-    "static/css/main.a17eed79.chunk.css.map": "/Tasks-for-practice/static/css/main.a17eed79.chunk.css.map",
-    "static/js/2.ce89a2bb.chunk.js.LICENSE.txt": "/Tasks-for-practice/static/js/2.ce89a2bb.chunk.js.LICENSE.txt"
+    "static/css/main.9d4c0d31.chunk.css.map": "/Tasks-for-practice/static/css/main.9d4c0d31.chunk.css.map",
+    "static/js/2.fecd5415.chunk.js.LICENSE.txt": "/Tasks-for-practice/static/js/2.fecd5415.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d037f899.js",
-    "static/js/2.ce89a2bb.chunk.js",
-    "static/css/main.a17eed79.chunk.css",
-    "static/js/main.d7e48eca.chunk.js"
+    "static/js/2.fecd5415.chunk.js",
+    "static/css/main.9d4c0d31.chunk.css",
+    "static/js/main.87e26970.chunk.js"
   ]
 }
