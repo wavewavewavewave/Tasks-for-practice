@@ -43,16 +43,16 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
 
     return (
         <div>
-            <div className={s.superInput}>
-            <input
-                type={'text'}
-                placeholder={'Write here...'}
-                onChange={onChangeCallback}
-                onKeyPress={onKeyPressCallback}
-                className={finalInputClassName}
-
-                {...restProps} // отдаём инпуту остальные пропсы если они есть (value например там внутри)
-            />
+            <div>
+                <input
+                    type={'text'}
+                    placeholder={'Write here...'}
+                    onChange={onChangeCallback}
+                    onKeyPress={onKeyPressCallback}
+                    // className={finalInputClassName}
+                    className={s.superInput}
+                    {...restProps} // отдаём инпуту остальные пропсы если они есть (value например там внутри)
+                />
             </div>
             {error && <span className={finalSpanClassName}>{error}</span>}
         </div>
